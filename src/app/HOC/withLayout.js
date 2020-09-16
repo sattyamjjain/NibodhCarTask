@@ -5,11 +5,11 @@ import Footer from "../components/Footer";
 import styled from 'styled-components'
 
 const MainComponent = styled.div`
+  background-color:#000000
 `;
 
 const WrappedContainer = styled.div`
   position:relative;
-  padding-top:12vh;
   overflow:auto;
   min-height:100%;
 `;
