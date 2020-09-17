@@ -17,7 +17,7 @@ export default class HomePageContainer extends React.Component {
     return (
         <MainContainer>
             <CarouselContainer />
-            <PopUpImageContainer />
+            {/* <PopUpImageContainer /> */}
             <DescriptionContainer/>
             <AboutContainer />
             <ClientContainer />

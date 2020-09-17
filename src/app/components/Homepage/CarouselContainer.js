@@ -19,8 +19,7 @@ export default class CarouselContainer extends React.Component {
                     alt="First slide"
                     />
                     <Carousel.Caption style={{padding:'20vh'}}>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>REAL EMOTIONS SHAPE THE FUTURE</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -30,8 +29,7 @@ export default class CarouselContainer extends React.Component {
                     alt="Second slide"
                     />
                     <Carousel.Caption style={{padding:'20vh'}}>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>ANYTHING BUT EXPECTED</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -41,8 +39,7 @@ export default class CarouselContainer extends React.Component {
                     alt="Third slide"
                     />
                     <Carousel.Caption style={{padding:'20vh'}}>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>CRAFTED PERFORMANCE</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -52,8 +49,7 @@ export default class CarouselContainer extends React.Component {
                     alt="Fourth slide"
                     />
                     <Carousel.Caption style={{padding:'20vh'}}>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>REWIND TO REAR WHEEL DRIVE</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

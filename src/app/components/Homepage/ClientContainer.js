@@ -17,17 +17,6 @@ const HeaderContainer = styled.h2`
     color:#FFFFFF
 `;
 
-const SubHeaderContainer = styled.h5`
-    text-align:center
-`;
-
-const DescTextContainer = styled.div`
-    Padding:5vh
-`;
-
-const DescImageContainer = styled.div`
-`;
-
 const PaddingContainer = styled.div`
     padding:2vh
 `; 
@@ -93,12 +82,13 @@ export default class ClientContainer extends React.Component {
                     {
                         clients.map((client,index)=>(
                             <ClientCardContainer>
-                                <Image src={client.picture} style={{height:'30vh',width:'30vh'}} roundedCircle />
+                                <Image src={client.results[0].picture.large} style={{height:'30vh',width:'30vh'}} roundedCircle />
                                 <ClientPaddingContainer/>
                                 <Card.Body style={{textAlign:'center'}}>
-                                <Card.Title>{client.name}</Card.Title>
+                                <Card.Title>{client.results[0].name.title+ ' ' + client.results[0].name.first + ' ' + client.results[0].name.last}</Card.Title>
+                                <Card.Title>{client.results[0].email}</Card.Title>
                                     <Card.Text>
-                                    {client.address}
+                                    {client.results[0].location.street.number + ' ' + client.results[0].location.street.name + ', ' + client.results[0].location.city + ' ' + client.results[0].location.state + ' ' + client.results[0].location.country + ' ' + client.results[0].location.postcode}
                                     </Card.Text>
                                 </Card.Body>
                             </ClientCardContainer>

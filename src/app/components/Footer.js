@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { Nav,Row,Col,Card,InputGroup,FormControl,Button,Container } from 'react-bootstrap';
 import * as FeatherIcon from 'react-feather';
 
@@ -54,6 +55,7 @@ const Divider = ({ color }) => (
 );
 
 export default class Footer extends React.Component {
+
   render() {
     return (
       <MainContainer>
@@ -72,11 +74,10 @@ export default class Footer extends React.Component {
                         <FormControl
                           placeholder="Enter Your Email"
                           aria-label="Enter Your Email"
-                          aria-describedby="basic-addon2"
                         />
                       </InputGroup>
                       <PaddingListContainer />
-                      <Button variant="outline-secondary"><FeatherIcon.ArrowRight /></Button>
+                      <Button variant="outline-secondary" href="https://gmail.com/" target="_blank"><FeatherIcon.ArrowRight /></Button>
                     </div>
                   </Card.Body>
                 </DescTextContainer>
@@ -85,14 +86,15 @@ export default class Footer extends React.Component {
                 <DescTextContainer>
                   <Card.Body>
                     <Card.Text>
-                      Follow us and use the following social media platforms to get in 
-                      contact with us and to share your passion for the brand, products 
-                      and services of Mercedes-Benz.
+                    Connect to the high-performance life. 
+                    Follow us on your social networks to team up and get an inside 
+                    view of our latest projects and ideas.
                     </Card.Text>
-                    <div style={{display:'flex',justifyContent:'space-between',paddingLeft:'5vh',paddingRight:'5vh'}}>
-                      <Button variant="outline-secondary"><FeatherIcon.Facebook /></Button>
-                      <Button variant="outline-secondary"><FeatherIcon.Instagram/></Button>
-                      <Button variant="outline-secondary"><FeatherIcon.Mail /></Button>
+                    <div style={{display:'flex',justifyContent:'space-between'}}>
+                      <Button variant="outline-secondary" href="https://facebook.com/" target="_blank"><FeatherIcon.Facebook /></Button>
+                      <Button variant="outline-secondary" href="https://instagram.com/" target="_blank"><FeatherIcon.Instagram/></Button>
+                      <Button variant="outline-secondary" href="https://gmail.com/" target="_blank"><FeatherIcon.Mail /></Button>
+                      <Button variant="outline-secondary" href="https://twitter.com/?lang=en" target="_blank"><FeatherIcon.Twitter /></Button>
                     </div>
                   </Card.Body>
                 </DescTextContainer>
@@ -110,16 +112,19 @@ export default class Footer extends React.Component {
             <FooterListContainer>
               <Nav className="justify-content-end" activeKey="/home">
                 <Nav.Item>
-                  <Nav.Link href="/home">Home</Nav.Link>
+                  <Nav.Link >
+                    <Link to="/" style={{color:"#7B7575"}}>Home</Link>
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/home">About Us</Nav.Link>
+                  <Nav.Link> 
+                    <Link to="/products" style={{color:"#7B7575"}}>Products</Link>
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/home">Products</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link href="/home">Contact Us</Nav.Link>
+                  <Nav.Link>
+                    <Link to="/contactUs" style={{color:"#7B7575"}}>Contact Us</Link>
+                  </Nav.Link>
                 </Nav.Item>
               </Nav>
             </FooterListContainer>

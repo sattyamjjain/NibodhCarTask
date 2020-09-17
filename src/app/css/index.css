@@ -36,15 +36,16 @@
   padding: 0 10px;
 }
 
-.img-hover-zoom {
-  height: 300px;
+.geeks {
   overflow: hidden;
+  margin: 0 auto;
 }
 
-.img-hover-zoom img {
-  transition: transform .5s ease;
+.geeks .geeksImage {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
 }
 
-.img-hover-zoom:hover img {
+.geeks:hover .geeksImage {
   transform: scale(1.5);
 }

@@ -34,24 +34,24 @@ export default class Header extends React.Component {
                 <HeaderListContainer>
                   <Nav className="justify-content-end" activeKey="/home">
                     <Nav.Item>
-                      <Nav.Link>
-                        <Link to="/">Home</Link>
+                      <Nav.Link >
+                        <Link to="/" style={{color:"#FFFFFF"}}>Home</Link>
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link> 
+                        <Link to="/products" style={{color:"#FFFFFF"}}>Products</Link>
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link>
-                        <Link to="/products">Products</Link>
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link>
-                        <Link to="/contactUs">Contact Us</Link>
+                        <Link to="/contactUs" style={{color:"#FFFFFF"}}>Contact Us</Link>
                       </Nav.Link>
                     </Nav.Item>
                   </Nav>
                 </HeaderListContainer>
             </MainContainer>
-    } />
+      } />
     );
   }
 }

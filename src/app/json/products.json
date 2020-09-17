@@ -1,0 +1,132 @@
+[
+    {
+        "id":"5f6325180a463f1492eda44d",
+        "carName":"Jaguar XE",
+        "image":"https://i.ytimg.com/vi/9ejXWOt7aL8/maxresdefault.jpg",
+        "carModel":"Jaguar",
+        "Engine":"1997 cc",
+        "seat":5,
+        "Price":"₹ 46.64 Lakh onwards",
+        "interior":[
+            {
+                "image":"https://stat.overdrive.in/wp-content/odgallery/2016/03/28765_JaguarXE__015.JPG",
+                "title":"KERB WEIGHT",
+                "description":"The XE gets a refresh for 2020 The V6 and diesel engines have been discontinued"                
+            },
+            {
+                "image":"https://www.newcarcars.com/wp-content/uploads/2019/02/2020-Jaguar-XE-Interior-Rear-Seats-Wallpaper.jpg",
+                "title":"GROUND CLEARANCE",
+                "description":"Updated exterior styling and lighting Improved interior materials, additional storage"                
+            },
+            {
+                "image":"https://imgd.aeplcdn.com/1056x594/n/cw/ec/45221/jaguar-xe-engine-bay164.jpeg?q=85",
+                "title":"CRAFTED TO PERFECTION",
+                "description":"New climate and infotainment systems with Apple/Android support Part of the first Jaguar XE generation introduced for 2017"                
+            }
+        ]
+    },
+    {
+        "id":"5f632518972b8914bb55eaf1",
+        "carName":"Lamborghini Veneno",
+        "image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/one-off/veneno-roadster/slider/veneno-roadster.jpg",
+        "carModel":"Lamborghini",
+        "Engine":"6.5 L L539 V12",
+        "seat":2,
+        "Price":"₹ 45 crore onwards",
+        "interior":[
+            {
+                "image":"https://cdn.motor1.com/images/mgl/676Xk/s3/2014-lamborghini-veneno-roadster-sold-at-auction-for-nearly-8-3-million.jpg",
+                "title":"KERB WEIGHT",
+                "description":"It has been assembled with powerful 6498cc, 6.5 liters 12 V, 12 cylinders engine that can produce maximum power of 740 Bhp and maximum torque of 690Nm."                
+            },
+            {
+                "image":"https://cdn.carbuzz.com/gallery-images/2013-lamborghini-veneno-roadster-central-console-carbuzz-587568.jpg",
+                "title":"GROUND CLEARANCE",
+                "description":"It has incorporated all the safety measures possible like, 10 air bags, parking sensors, fog lamp, transaction control system, EBD , ABS and the ESP."                
+            },
+            {
+                "image":"https://1cars.org/wp-content/uploads/2018/01/Lamborghini-Veneno.jpg",
+                "title":"CRAFTED TO PERFECTION",
+                "description":"Lamborghini Veneno has been made in 3 colors of Italian flag that are Green, Red and White but only 3 units, all of which have been sold off."                
+            }
+        ]
+    },
+    {
+        "id":"5f632518640cdda0806adda0",
+        "carName":"Ferrari 250 GTO",
+        "image":"https://images.financialexpress.com/2018/06/1962-ferrari-250-gto-auction-main-image.jpg",
+        "carModel":"Ferrari",
+        "Engine":"2,953 cc",
+        "seat":2,
+        "Price":"₹ 340 crore onwards",
+        "interior":[
+            {
+                "image":"https://i2.wp.com/50to70.com/wp-content/uploads/2018/07/1964-250-GTO_3.jpg?ssl=1",
+                "title":"KERB WEIGHT",
+                "description":"The Ferrari 250 GTO is a GT car produced by Ferrari from 1962 to 1964 for homologation into the FIA's Group 3 Grand Touring Car category."                
+            },
+            {
+                "image":"https://cdn.luxuo.com/2012/02/1961-ferrari-250-gt-berlinetta.jpg",
+                "title":"GROUND CLEARANCE",
+                "description":"The current record for world's most expensive car was set in June 2018 when a 1963 250 GTO (chassis 4153GT) was sold in a private sale for $70 million"                
+            },
+            {
+                "image":"https://upload.wikimedia.org/wikipedia/commons/8/85/1962_Ferrari_250_GTO_engine.jpg",
+                "title":"CRAFTED TO PERFECTION",
+                "description":"In 2004, Sports Car International placed the 250 GTO eighth on a list of Top Sports Cars of the 1960s, and nominated it the top sports car of all time"                
+            }
+        ]
+    },
+    {
+        "id":"5f632518f73b511ae1c5b68f",
+        "carName":"Lexus GX",
+        "image":"https://media.ed.edmunds-media.com/lexus/gx-460/2020/oem/2020_lexus_gx-460_4dr-suv_base_fq_oem_4_1600.jpg",
+        "carModel":"Lexus",
+        "Engine":"4.7-liter V8",
+        "seat":7,
+        "Price":"₹ 70.0 Lakh onwards",
+        "interior":[
+            {
+                "image":"https://cars.usnews.com/static/images/Auto/izmo/i41643684/2018_lexus_gx_dashboard.jpg",
+                "title":"KERB WEIGHT",
+                "description":"It includes a surround-view camera system, a transmission cooler, crawl control, Multi-Terrain Select (with various driving modes), and the Multi-Terrain Monitor, which features cameras under the car."             
+            },
+            {
+                "image":"https://cars.usnews.com/static/images/Auto/izmo/i2446331/2017_lexus_gx_frontseat.jpg",
+                "title":"GROUND CLEARANCE",
+                "description":"The Lexus RX 350 has a richer cabin and a lower base price."                
+            },
+            {
+                "image":"https://i.pinimg.com/originals/6e/1f/9f/6e1f9faed4387823e0d7a45341a9e7cc.png",
+                "title":"CRAFTED TO PERFECTION",
+                "description":"The GX 460 is one of the few vehicles in the class that's tuned for tackling rough terrain, "                
+            }
+        ]
+    },
+    {
+        "id":"5f63251882ff184da8bb6684",
+        "carName":"Rolls Royce Ghost",
+        "image":"https://stimg.cardekho.com/images/carexteriorimages/630x420/Rolls-Royce/Rolls-Royce-Ghost/6397/1594192080019/front-left-side-47.jpg?tr=h-140",
+        "carModel":"Rolls Royce",
+        "Engine":"6592 cc",
+        "seat":4,
+        "Price":"₹ 5.25 - 6.83 Crore",
+        "interior":[
+            {
+                "image":"https://cdn.carbuzz.com/gallery-images/2020-rolls-royce-phantom-steering-wheel-carbuzz-390667.jpg",
+                "title":"KERB WEIGHT",
+                "description":"The Rolls Royce Phantom has 1 Petrol Engine on offer. The Petrol engine is 6749 cc. It is available with the Automatic transmission. "                
+            },
+            {
+                "image":"https://i.pinimg.com/originals/51/bd/47/51bd4709c290f074d378191d32271e60.jpg",
+                "title":"GROUND CLEARANCE",
+                "description":"Depending upon the variant and fuel type the Rolls Royce Phantom has a mileage of 9.8 kmpl."                
+            },
+            {
+                "image":"https://cdn.motor1.com/images/mgl/pZ09r/s3/2018-rolls-royce-ghost-review.jpg",
+                "title":"CRAFTED TO PERFECTION",
+                "description":"The Rolls Royce Phantom is a 5 seater Sedan and has a length of 5982mm, width of 2018mm and a wheelbase of 3772mm."                
+            }
+        ]
+    }
+]

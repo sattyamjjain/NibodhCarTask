@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { Container,Row,Col,Image,Form,Button,Card } from "react-bootstrap";
+import { Container,Row,Col,Modal,Form,Button,Card } from "react-bootstrap";
 import styled from 'styled-components';
 import GoogleMapReact from 'google-map-react';
  
@@ -26,6 +26,26 @@ const ContactUsMaps = styled.div`
 `;
 
 export default class ContactUsContainer extends React.Component {
+    constructor(props){
+        super(props)
+        this.state={
+            show:false
+        }
+        this.handleClose = this.handleClose.bind(this)
+        this.handleShow = this.handleShow.bind(this)
+    }
+
+    handleShow(val){
+        this.setState({
+            show:true
+        })
+    }
+
+    handleClose(){
+        this.setState({
+            show:false
+        })
+    }
   render() {
     return (
         <MainContainer>
@@ -55,7 +75,7 @@ export default class ContactUsContainer extends React.Component {
                                 <Form.Control placeholder="Type a message" />
                             </Form.Group>
 
-                            <Button variant="primary" type="submit">
+                            <Button variant="primary" type="submit" onClick={this.handleShow}>
                                 Submit
                             </Button>
                         </Form>
@@ -86,6 +106,17 @@ export default class ContactUsContainer extends React.Component {
                     </ContactUsMaps>
                 </Row>
             </Container>
+            <Modal show={this.state.show} onHide={this.handleClose} backdrop="static" keyboard={false}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Response Modal</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Contact Information is submitted</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={this.handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
         </MainContainer>
     );
   }

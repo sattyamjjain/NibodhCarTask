@@ -32,7 +32,7 @@ export default class CarouselContainer extends React.Component {
     return (
         <MainContainer>
             <HeaderContainer>
-                Company Description
+                Welcome to the Nibodh Car Website.
             </HeaderContainer>
             <PaddingContainer/>
             <Container>
@@ -41,38 +41,39 @@ export default class CarouselContainer extends React.Component {
                         <DescTextContainer>
                             <Card.Body>
                                 <Card.Title>
-                                    MAZDA SKYACTIV® TECHNOLOGY: A SMARTER APPROACH
+                                    ELEGANT DETAILS THAT INSPIRE
                                 </Card.Title>
                                 <Card.Text>
-                                    When the components of a system are engineered to work together, 
-                                    that system will operate at peak efficiency. 
-                                    This is the simple idea behind Mazda Skyactiv® Technology. 
-                                    But efficiency isn’t the only benefit.
+                                Inviting and refined, the CX-9 Signature cabin is adorned with Nappa 
+                                leather and features a larger 10.25-inch center display. 2nd-row captain’s chairs 
+                                provide the ultimate comfort, while new patterned aluminum trim accents, 
+                                new quilting and piping on seats add a touch of inspiring style.
                                 </Card.Text>
                             </Card.Body>
                         </DescTextContainer>
                     </Col>
                     <Col>
-                        <DescImageContainer >
-                            <Image src={require('../../images/HomePage2.jpg')} fluid />
+                        <DescImageContainer className="geeks">
+                            <Image src={require('../../images/PopUp1.jpg')} fluid className="geeksImage"/>
                         </DescImageContainer>
                     </Col>
                     <Col>
-                        <DescImageContainer>
-                            <Image src={require('../../images/HomePage1.jpg')} fluid />
+                        <DescImageContainer className="geeks">
+                            <Image src={require('../../images/PopUp2.jpg')} fluid className="geeksImage"/>
                         </DescImageContainer>
                     </Col>
                     <Col>
                         <DescTextContainer>
                             <Card.Body>
                                 <Card.Title>
-                                    MAZDA SKYACTIV® TECHNOLOGY: A SMARTER APPROACH
+                                    STYLE MEETS PERFORMANCE
                                 </Card.Title>
                                 <Card.Text>
-                                    When the components of a system are engineered to work together, 
-                                    that system will operate at peak efficiency. 
-                                    This is the simple idea behind Mazda Skyactiv® Technology. 
-                                    But efficiency isn’t the only benefit.
+                                The Skyactiv®-G 2.5 Dynamic Pressure Turbo engine provides effortless 
+                                acceleration when and where you need it most. Available i-Activ AWD® 
+                                helps predict traction loss. G-Vectoring Control Plus helps improve 
+                                cornering stability with subtle adjustments to engine torque and brake pressure. 
+                                You’re well-equipped to handle every road you take. 
                                 </Card.Text>
                             </Card.Body>
                         </DescTextContainer>
